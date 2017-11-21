@@ -34,7 +34,7 @@ func GetSubnetAddresses(id int) error {
 }
 
 // GetSubnetAddress returns an IP address from the subnet
-func GetSubnetAddress(id int, ip ip) error {
+func GetSubnetAddress(id int, ip IP) error {
 	return nil
 }
 
