@@ -8,7 +8,5 @@ go:
 
 matrix:
   fast_finish: true
-  include:
-    - go: tip
-  allowed_failures:
+  allow_failures:
     - go: tip
