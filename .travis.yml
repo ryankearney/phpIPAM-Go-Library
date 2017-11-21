@@ -5,3 +5,10 @@ go:
   - 1.8.x
   - 1.7.x
   - tip
+
+matrix:
+  fast_finish: true
+  include:
+    - go: tip
+  allowed_failures:
+    - go: tip
